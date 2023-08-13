@@ -17,3 +17,7 @@ https://type-together.vercel.app/
 ```
 
 ## Implementation Details
+
+- NextJS was chosen as solid starter framework that can handle almost anything
+- Quill was chosen as editor, because it provides us with a nice out-of-the box working editor, basically for free
+- LiveBlocks was chosen to handle remote collaboration. 
