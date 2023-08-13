@@ -16,7 +16,7 @@ export default function Home() {
         <RoomProvider
           id="type-together"
           initialStorage={{
-            content: new LiveObject({ html: "" }),
+            content: new LiveObject({ html: "", version: 0 }),
           }}
           initialPresence={{}}
         >

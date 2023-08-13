@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/unbound-method */
-import { LiveObject, createClient } from "@liveblocks/client";
+import { type LiveObject, createClient } from "@liveblocks/client";
 import { createRoomContext } from "@liveblocks/react";
 
 const client = createClient({
@@ -23,7 +23,7 @@ type Presence = {
 type Storage = {
   // author: LiveObject<{ firstName: string, lastName: string }>,
   // text: LiveList<string>;
-  content: LiveObject<{ html: string }>;
+  content: LiveObject<{ html: string; version: number }>;
   // ...
 };
 
